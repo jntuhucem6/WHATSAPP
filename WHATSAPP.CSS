@@ -1,0 +1,251 @@
+body{background-color:white;}
+
+#apple{
+    height:150px;
+    width:100%;
+    background-color:white;
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly ;
+    position:relative;top:10px;
+    margin-top:435px;
+    position:fixed;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    border-top-color:rgba(211, 211, 211, 0.354);
+}
+.a,.b,.c,.d{display:inline-block;
+            font-size:25px;
+            color:black;
+            cursor:pointer;}
+.aa,.bb,.cc,.dd{text-align:center; 
+                margin-bottom:5px;
+                cursor:pointer;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                height:40px;
+                width:70px;
+                border:0px solid black;
+                border-radius:30px; }
+.ph{height:60px;
+    width:90%;
+    background-color:rgba(211, 211, 211, 0.354);
+    border-style:solid;
+    border-width:0px;
+    border-radius:35px;
+    color:black;
+    margin-top:50px;
+    font-size:20px;
+    padding-left:10%;}
+.meta{height:20px;
+    width:20px;
+    border:10px solid blue;
+    border-radius:50%;
+    position:relative;
+    left:70px;
+    top:102px;
+    border-bottom-color:rgba(30, 215, 215, 0.584);
+    border-top-color:rgba(240, 12, 233, 0.804);
+    animation: meta 0.5s ease-in 0s infinite normal; 
+    transform:rotate(0deg);}
+@keyframes meta {
+    0% {transform:rotate(0deg);}
+    50% {transform:rotate(180deg);}
+    100% {transform:rotate(400deg);}
+ }
+ .a1{height:28px;
+     width:60px;
+     border:0px solid rgba(211, 211, 211, 0.354);
+     margin-top:20px;}
+ .a2{height:28px;
+     width:100px;
+     border:0px solid rgba(211, 211, 211, 0.354);}
+ .a3{height:28px;
+    width:120px;
+    border:0px solid rgba(211, 211, 211, 0.354);}
+ .a4{height:28px;
+     width:100px;
+     border:0px solid rgba(211, 211, 211, 0.354);}
+ .a1,.a2,.a3,.a4{background-color:rgba(211, 211, 211, 0.354);
+                 color:black;
+                 font-size: 20px;
+                 cursor:pointer;
+                 margin-left:15px;
+                 border-radius:55px;
+                 display:flex;
+                 align-items:center;
+                display:inline-block;
+                text-align:center;
+                margin-bottom:20px;}
+#main{height:120px;
+    width:100%;
+    border:0px solid rgba(211, 211, 211, 0.354);
+    background-color:white;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position:relative; 
+    top:0px;
+    position:fixed;}
+.table{font-size:30px;
+     display: flex;
+     position: relative;
+     right:515px;
+     font-weight:bold;
+     color:#1daa61;}
+.table,.t1,.t2,.t3{display: inline-block;
+                   cursor:pointer;}
+.t3{position:relative;
+    left:500px;
+    font-size:28px;}
+.t2{position:relative;
+    left:470px;
+    font-size:28px;}
+.t1{position:relative;
+    left:440px;
+    font-size:28px;}
+#contacts{width:100%;
+          height:1800px;
+          border:1px solid white;
+          box-sizing:border-box;
+          border-bottom-color:rgba(211, 211, 211, 0.354);}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14,.c15,.c16,.c17,.c18,.c19,.c20
+   {
+    height:60px;
+    width:60px;
+    border:0.3px solid white;
+    cursor:pointer;
+    border-radius:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+.c1{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\nature.jfif");}
+.c2{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\BARBIE.jfif");}
+.c3{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\lion.jpg");}
+.c4{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\city.jpg");}
+.c5{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\lotus.jpg");}
+.c6{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\cat.jpeg");}
+.c7{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\rabbit.webp");}
+.c8{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\clouds.avif");}
+.c9{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\mountains.jpg");}
+.c10{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\eye-ai.jpg");}
+.c11{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\mj.jpg");}
+.c12{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\butterfly.jpg");}
+.c13{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\baby.webp");}
+.c14{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\spiderman.jpg");}
+.c15{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\krishna.jpg");}
+.c16{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\elephant.jpg");}
+.c17{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\bahubali.jpg");}
+.c18{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\hanuman.jpg");}
+.c19{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\mickey mouse.jpg");}
+.c20{margin-bottom:15px;background-image:url("C:\\Users\\malav\\Downloads\\tom&jerry.png");}
+span{color:#1daa61;
+    padding-left:4px;}
+.end{height:60px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     position:relative;
+     bottom:0px;
+     font-size:20px;
+     border:1px solid white;
+     border-top-color:rgba(211, 211, 211, 0.354);}
+.to{padding-left:15px;}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11,.p12,.p13,.p14,.p15,.p16,.p17,.p18,.p19,.p20
+      {padding-left:80px;
+       font-size:20px;
+       font-weight:bold;}
+.add{height:50px;
+    width:50px;
+    border:0.2px solid #1daa61;
+    z-index:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+   background-color:#1daa61;
+   position:relative;
+   top:370px;
+   left:95%;
+   position:fixed;
+   cursor:pointer;}
+.par{height:40px;
+    width:40px;
+    border:1px solid rgba(211, 211, 211, 0.354);
+    background-color:rgba(211, 211, 211, 0.354);
+    position:relative;
+    top:305px;
+    left:95.25%;
+    border-radius:12px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   position:fixed;
+   cursor:pointer; 
+   z-index:1;}    
+.minmeta{height:7px;
+         width:7px;
+         border:10px solid blue;
+         border-radius:50%;
+         border-bottom-color:rgba(30, 215, 215, 0.584);
+         border-top-color:rgba(240, 12, 233, 0.804);
+         animation: minmeta 0.5s ease-in 0s infinite normal;
+         transform:rotate(0deg);}
+   @keyframes minmeta {
+       0% {transform:rotate(0deg);}
+       50% {transform:rotate(0deg);}
+       100% {transform:rotate(0deg);}
+    }
+    pre{
+        font-size:17px;
+        position:relative;
+        left:-6px;
+        bottom:12px;
+        font-weight:lighter;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+       position: relative;
+       left:1100px;
+       font-weight:lighter;
+       font-size:16px;
+       bottom:-2px;
+    }
+    .time{
+        position:relative;
+        top:260px;
+        left:1180px;
+    }
+    .m{
+        height:15px;
+        width: 15px;
+        border:0.5px solid #1daa61;
+        background-color:#1daa61;
+        font-size:14px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-radius:50%;
+        position:relative;
+        left:1135px;
+        bottom:10px;
+    }
+   .effect{height:75px;width:100%;border:1px solid white;}
+   .effect:hover{background-color:rgba(211, 211, 211, 0.354);}
+   .col{color:#1daa61;}
+   .a1:hover{background-color:#d9fdd3;;}
+   .a2:hover{background-color:#d9fdd3;}
+   .a3:hover{background-color:#d9fdd3;}
+   .a4:hover{background-color:#d9fdd3;}
+.aa:hover{background-color:#d9fdd3;}
+.bb:hover{background-color:#d9fdd3;}
+.cc:hover{background-color:#d9fdd3;}
+.dd:hover{background-color:#d9fdd3;}
+.cc{position: relative;left:35px;}
+.bb{position: relative;left:10px;}
+.dd{position: relative;right:9px;}
+.aa{position: relative;right:5px;}
